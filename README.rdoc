@@ -6,23 +6,28 @@ application up and running.
 Things you may want to cover:
 
 * Ruby version
+2.0.0
 
 * System dependencies
+NodeJS  v0.10.x
+Yeoman, Bower, Grunt.js
 
 * Configuration
+    bundle install
+    cd ngapp
+    npm install -g grunt-cli
+    npm install
+    bower install
+    grunt server
 
 * Database creation
 
 * Database initialization
 
 * How to run the test suite
+    guard
 
 * Services (job queues, cache servers, search engines, etc.)
 
 * Deployment instructions
 
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
